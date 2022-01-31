@@ -12,7 +12,8 @@ class Logger
     private $availableTypes = [
         "error",
         "database",
-        "access"
+        "access",
+        'custom'
     ];
 
     public function __construct($type)
